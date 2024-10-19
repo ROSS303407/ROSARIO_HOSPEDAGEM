@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tillana:wght@400;500;600;700;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+   
+}
+
+main{
+    height: 90vh;
+    overflow: hidden;
+    background-image: url(pepsi-004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 1px 1px 10px #12406D;
+}
+
+
+
+.logo img{
+    width: 150px;
+    margin-left: 25%;
+
+}
+
+
+header .menu{
+    margin: 0 auto;
+
+}
+
+
+.menu ul li:nth-child(5){
+    margin-left: 50%;
+    padding: 10px 40px;
+    background-color:#12406D ;
+ 
+ 
+}
+
+
+
+.menu ul{ 
+    list-style:none;
+    display: flex;
+    
+    
+}
+.menu ul li{
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 15px;
+    color: #eeee;
+    font-size: 20px;
+
+    
+}
+
+
+
+section, .btn{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.descricao{
+    width: 360px;
+    margin-top: 6%;
+    margin-right: 25%;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+}
+
+.descricao .sectin{
+    font-weight: 600;
+    color:#E9102D;
+    text-shadow: 1px 1px 25px #000;
+    
+}
+ .descricao h1{
+    color: #12406D;
+    font-size: 50px;
+    text-shadow: 1px 1px 20px #000;
+ }
+
+ .descricao .sectin2{
+    font-family: "Tillana", system-ui;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+ }
+
+ .btn{
+    font-family: "Tillana", system-ui;
+    font-weight: 600;
+    color: #fff;
+   background-color: #E9102D;
+   height: 40px;
+   width: 300px;
+   position: absolute;
+   right: 55%;
+   margin-top: 10px;
+   cursor: pointer;
+ }
+ 
+
+
+
+ .lista-imgs{
+    position: relative;
+    top:38%;
+  
+ }
+
+ .lista1 img{
+    width: 300px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+ }
+
+ .lista2 img{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:500px ;
+ }
+
+ .lista3 img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }
+
+ .lista4 img{
+     width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 19;
+   
+ }
+
+
+ .circulo1{
+    position: absolute;
+    top: 60%;
+    border-radius: 0 90% 0 0;
+    width: 400px;
+    height: 309px;
+    background-color: #fff;
+
+    
+ }
+
+
+ .main2{
+    height: 100vh;
+ }
+
+
+
+
+
+
+
+
+
+
